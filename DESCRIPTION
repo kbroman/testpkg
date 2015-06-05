@@ -1,0 +1,15 @@
+Package: testpkg
+Version: 0.1-1
+Date: 2015-06-05
+Title: Test out stuff
+Description: Sandbox for testing out stuff. This isn't meant to really
+   do anything; I just want the structure of a package to play with
+   things.
+Author: Karl W Broman <kbroman@biostat.wisc.edu>
+Maintainer: Karl W Broman <kbroman@biostat.wisc.edu>
+Depends:
+    R (>= 2.15.0)
+Suggests:
+    testthat
+License: MIT + file LICENSE
+URL: https://github.com/kbroman/testpkg
