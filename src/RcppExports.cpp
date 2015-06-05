@@ -15,3 +15,13 @@ BEGIN_RCPP
     return __result;
 END_RCPP
 }
+// cpptestwarn
+bool cpptestwarn();
+RcppExport SEXP testpkg_cpptestwarn() {
+BEGIN_RCPP
+    Rcpp::RObject __result;
+    Rcpp::RNGScope __rngScope;
+    __result = Rcpp::wrap(cpptestwarn());
+    return __result;
+END_RCPP
+}

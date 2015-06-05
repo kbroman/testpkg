@@ -9,3 +9,11 @@ bool cpptestfunc()
 
     return(true);
 }
+
+// [[Rcpp::export]]
+bool cpptestwarn()
+{
+    r_warning("hello from cpptestwarn");
+
+    return(true);
+}

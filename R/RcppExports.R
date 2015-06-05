@@ -5,3 +5,7 @@ cpptestfunc <- function() {
     .Call('testpkg_cpptestfunc', PACKAGE = 'testpkg')
 }
 
+cpptestwarn <- function() {
+    .Call('testpkg_cpptestwarn', PACKAGE = 'testpkg')
+}
+
