@@ -9,7 +9,10 @@ Author: Karl W Broman <kbroman@biostat.wisc.edu>
 Maintainer: Karl W Broman <kbroman@biostat.wisc.edu>
 Depends:
     R (>= 2.15.0)
+Imports:
+    Rcpp (>= 0.11.2)
 Suggests:
     testthat
 License: MIT + file LICENSE
 URL: https://github.com/kbroman/testpkg
+LinkingTo: Rcpp
